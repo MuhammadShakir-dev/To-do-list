@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./to-do-list.png" type="image/x-icon">
+    <title>Todo list</title>
+
+    <!--Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!---Todo list container-->
+    <div class="container">
+        <h1>To-Do List 📋</h1>
+        <p class="p1">- Write your tasks in the input field.</p>
+        <p class="p2">- Press the add button or hit enter to add your task to the list.</p>
+        <p class="p2">- Click on the delete icon to del the todo.</p>
+        <p class="p3">- Double-click on the todo when you finish your task.</p>
+
+        <form action="submit" id="form">
+            <input type="text">
+            <button class="formbtn">Add</button>
+        </form>
+
+        <ul id="list"></ul>
+    </div>
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
